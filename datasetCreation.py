@@ -24,7 +24,7 @@ def generateExplanation(entry):
     text = entry['text']
     label = truthfulness_mapping[entry['label']].lower()
     for prompt in prompts:
-        prompt["prompt"] = f"The accompanying text is {label} " + prompt["prompt"] + f"Here is the text: {text}"
+        prompt["prompt"] = f"For context, the text is {label}. " + prompt["prompt"] + f"Here is the text: {text}"
         print("==============================================")
         print("The prompt is:", prompt["prompt"])
         while (True):
