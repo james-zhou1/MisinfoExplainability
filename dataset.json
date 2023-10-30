@@ -1,0 +1,134 @@
+[
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at CNN. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": "Hi, I'm Katelyn a political analyst at CNN. I classified this statement as true because since the 1970s, the rate of employment in the United States has declined from 69.6% to 62.9% in 2016."
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at CNN. Third, give one reason explaining your classification. Fourth, make sure that each reason is verbose at around 150 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": "Hi, I'm [name], and I'm a political analyst at CNN. This statement is true because employment has decline significantly since the 1970s. \n\nAccording to the United States Bureau of Labor Statistics, the total non-farm employment rate peaked in 1979 to approximately 97 million before falling sharply to approximately 80 million by the mid-1980s. This resulted in nearly 17 million fewer Americans working due to recessions, technological advancements, and the shift of manufacturing production overseas.\n\nThe decline in non-farm employment rate continued throughout the 2000s and 2010s. By June 2020, the non-farm employment rate had fallen to only 76 million, which is approximately 21 million lower than the peak rate from 1979. This means that since the 1970s, roughly 38 million fewer Americans have been employed.\n\nGiven these statistics, we can confirm that the statement is true. It may have only been around 80 million when the statement was made, but this is still less than the 97 million peak in 1979. All in all, the statement is true: We have less Americans working now than in the 70s."
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at CNN. Third, give three reasons explaining your classification. Fourth, make sure that each reason is concise at around 50 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": "My name is John and I am a political analyst at CNN. \n\nFirst reason: In January 2020, there were over 3 million American unemployed, significantly more than in the 70s, according to the US Bureau of Labor Statistics. \n\nSecond reason: The US Census Bureau says that the 2019 labor force was 62% of the population \u2014 many fewer than 70s when the labor force peaked at over 67%. \n\nThird reason: The US Bureau of Labor Statistics says the labor force participation rate has steadily decreased from the early 1970s, meaning there are fewer American workers relative to the overall population."
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at CNN. Third, give three reasons explaining your classification. Fourth, make sure that each reason is verbose at around 150 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": "Hello, I'm a political analyst here at CNN. \n\nThe reason why I classified this statement as true is because all available data indicates that it is, in fact, true. Our nation has seen an overall decline in the total number of Americans working since the late 1970s. This fact is stated quite clearly in numerous reports put out by both the U.S. Department of Labor and the United States Census Bureau. \n\nThe number of people employed in the United States peaked in 1979. In that same year, the overall labor-force participation rate -- the ratio of the number of people actively employed to the median population -- was around 64%, meaning that 64 out of 100 adults in the United States were employed. These figures gradually began to decline in the following decades, and, as of May 2018, the labor-force participation rate had decreased to 62.8%. \n\nFurthermore, in 2018, the number of Americans working was roughly 7 million less than it had been at its peak in 1979. This means that, despite the fact that the U.S. population has steadily increased since the 1970s, the number of employed people has decreased since that time. This is why we have less Americans working now than we did in the 70s."
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at CNN. Third, give seven reasons explaining your classification. Fourth, make sure that each reason is concise at around 50 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": " Hi, I'm politcal analyst for CNN.  1) This statement is true according to official government data from the Bureau of Labor Statistics; 2) The number of people in the labor force is currently lower than it was in the 1970s; 3) The peak was in 2000, after increasing steadily since the 70s; 4) Education rates and retirement mean more people are staying active for longer; 5) Although there are more people in the US now than in the 70s, more people are participating in the labor force; 6) Gender roles and a rise in professional jobs have shifted the labor landscape; 7) Retirement age and other factors continue to influence the size of the labor market."
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at CNN. Third, give seven reasons explaining your classification. Fourth, make sure that each reason is verbose at around 150 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": "\n\nHello, I'm a political analyst at CNN. \n\nThe statement that we have less Americans working now than in the 70s is true. To support this assertion, first, the Bureau of Labor Statistics (BLS) data from 1976 shows that there were about 84.8 million Americans employed compared to about 162.7 million Americans employed in 2019. Second, according to the US Census, in 1976, the population of the United States was about 213.9 million compared to 328.2 million in 2019. Third, while 76% of the population had jobs in 1976, only about 50% of the population was employed in 2019, showing a discrepancy between today\u2019s number of people employed and the number in 1976. Fourth, according to the Economic Policy Institute (EPI), for every 1 million additional adult Americans today relative to 1976, there are only about 811,000 new job openings compared to 1.2 million in 1976. Fifth, while the population of working-age Americans has grown by 108 million over the last four decades, the labor force has only grown by 26 million. Sixth, the latest government figures show that there are 6.3 million fewer people employed than when the pandemic broke out in February, with many Americans leaving the labor force in 2020 instead of looking for jobs. Finally, when looking at the overall big picture, 80 million Americans in 1976 have 85 million fewer counterpart job opportunities today. \n\nIn conclusion"
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at Fox News. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": "I'm a political analyst at Fox News. The Bureau of Labor Statistics shows that in January 2020, 146.6 million people were employed, while in December 1979, 97.9 million people were employed, despite the change in population over the decades. This proves that fewer people are working today than in the 1970s."
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at Fox News. Third, give one reason explaining your classification. Fourth, make sure that each reason is verbose at around 150 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": "Hi, I'm a political analyst at Fox News. I classify the statement to be true because there are United States government statistics that clearly demonstrate that the number of people who are employed is much lower in 2020 than it was in the 1970s. Specifically, the percentage of those employed or actively looking for work has decreased from approximately 59-60% in the 1970s to around 57-58% in 2020. This disparity is due to a number of complex economic factors, including an aging population, automation, increased labor force participation by both men and women, and stagnation in economic growth in certain sectors of the economy. Additionally, the United States government has implemented numerous labor policies, such as reducing regulations and lowering taxes, that have impacted employment numbers in clear and consistent ways. As a result, the gap between those employed and actively looking for work in the 1970s and those employed and actively looking for work today is a clear indication that there are less people working in the United States currently than there was in the 1970s."
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at Fox News. Third, give three reasons explaining your classification. Fourth, make sure that each reason is concise at around 50 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": "Hi, I'm a political analyst at Fox News. My classification is true. Firstly, data from the U.S. Bureau of Labor Statistics shows that the employment to population ratio in 2017 was 60.1 percent, compared with 60.6 percent in 1969. Secondly, the number of people currently employed in the US is roughly 158 million, significantly lower than the 197 million employed in 1979. Thirdly, the US labor force has grown since the 70s, but the growth is not proportionate to the population growth, thus resulting in a decreased employment rate."
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at Fox News. Third, give three reasons explaining your classification. Fourth, make sure that each reason is verbose at around 150 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": "Hi, I'm Charlie, and I'm a political analyst at Fox News. \n\nIn classifying the statement that \"we have less Americans working now than in the 70s\" as true, there are several key reasons that come to mind. Firstly, the Bureau of Labor Statistics shows that in January 2021, there were 146.2 million Americans working, whereas in January 1978 there were 94.9 million working. This makes a difference of 51.3 million Americans, meaning that despite the increase in population over time, overall there are less Americans working now than in the 70s.\n\nSecondly, according to a study conducted by the Federal Reserve Bank of St. Louis, the decline in the labor-force participation rate from 76.9% in January 1978 to 61.4% in January 2021 provides further evidence that there are less Americans working now.  Moreover, when looking at the population that works solely in non-agricultural roles, the labor-force participation rate has declined from 62.1% in January 1978 to 54.5% in the same month of 2021, a further indicator of a decrease in the number of working Americans. \n\nFinally, the decline in labor-force participation rate among prime-aged adults, i.e. those aged 25 to 54, has also caused the number of working Americans to reduce. Specifically, from January 1978 to 2021, the labor-force participation rate for the 25 to 54 age range has"
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at Fox News. Third, give seven reasons explaining your classification. Fourth, make sure that each reason is concise at around 50 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": "Hi, I am a political analyst at Fox News. \n1. It is a fact that the civilian labor force participation rate has gone down since the 1970s - from 60.3% to 61.2%. \n2. Another statistic to consider is the unemployment rate: on average, it has been lower in the 2000s than in the 1970s. \n3. The number of Americans employed is lower today than it was in the 70s, according to the Bureau of Labor Statistics. \n4. There are fewer individuals actively employed in the US now than there were in 1979. \n5. The share of the population that are employed has declined since the 70s, with over 6 million fewer jobs in June 2018 than in 1979. \n6. The proportion of the American population that has a job has dropped from 62.7% to 60.2%. \n7. The employment rate has generally gone lower since the 70s, according to the U.S. Census Bureau."
+    },
+    {
+        "prompt": {
+            "engine": "text-davinci-003",
+            "prompt": "Follow the instructions in order. First, classify the following statement as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce yourself as being a political analyst at Fox News. Third, give seven reasons explaining your classification. Fourth, make sure that each reason is verbose at around 150 words. The statement is: We have less Americans working now than in the 70s.",
+            "max_tokens": 300,
+            "n": 1
+        },
+        "classification": "true",
+        "text": "We have less Americans working now than in the 70s.",
+        "explanation": " \nHello, my name is John Doe, and I am a political analyst at Fox News. \n\nMy classification of the statement \"We have less Americans working now than in the 70s,\" as true is based on the following seven reasons: \n\nFirstly, according to the Bureau of Labor Statistics, the number of employed Americans in April 2018 was just over 156 million, meaning there is about 4.6 million less people working than there was in 1979. This is due to a range of factors, from automation and technological advancements to globalization. \n\nSecondly, the number of people aged 25 to 54 in the labor force declined significantly between 1979 and 2018. This indicates that people are either retiring earlier and dropping out of the labor market, or being pushed out by changing economic trends \u2013 which is often the result of international competition. \n\nThirdly, the median age of workers has shot up since 1979; now, the typical American has 6.4 years of experience in their current job, in comparison to just 4.5 years in 1979. This suggests that the composition of the workforce as a whole has changed (with a larger proportion of older workers) since the 1970s. \n\nFourthly, there has been an overall decline in labor-force participation since 1979. This is primarily due to the fact that more people are choosing to stay home to take care of children and family members, or retire earlier to enjoy leisure activities."
+    }
+]
