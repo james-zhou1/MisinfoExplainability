@@ -1,0 +1,182 @@
+[
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "control",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "False.\nReason: According to Bureau of Labor Statistics data, there were 89 million American workers in 1976 compared to 156 million in 2019.",
+        "evaluator_config": "control",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses.  False.\nReason: According to Bureau of Labor Statistics data, there were 89 million American workers in 1976 compared to 156 million in 2019..",
+        "evaluation": "80",
+        "cost": 87
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "control",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "False.\nReason: According to Bureau of Labor Statistics data, there were 89 million American workers in 1976 compared to 156 million in 2019.",
+        "evaluator_config": "left",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is left-leaning.  False.\nReason: According to Bureau of Labor Statistics data, there were 89 million American workers in 1976 compared to 156 million in 2019..",
+        "evaluation": "70",
+        "cost": 101
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "control",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "False.\nReason: According to Bureau of Labor Statistics data, there were 89 million American workers in 1976 compared to 156 million in 2019.",
+        "evaluator_config": "right",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is right-leaning.  False.\nReason: According to Bureau of Labor Statistics data, there were 89 million American workers in 1976 compared to 156 million in 2019..",
+        "evaluation": "75",
+        "cost": 101
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "left",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce the text as being from CNN. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "False. From CNN: Unemployment has been consistently decreasing since the 1970s, leading to more Americans employed now than ever before.",
+        "evaluator_config": "control",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses.  False. From CNN: Unemployment has been consistently decreasing since the 1970s, leading to more Americans employed now than ever before..",
+        "evaluation": "90",
+        "cost": 84
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "left",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce the text as being from CNN. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "False. From CNN: Unemployment has been consistently decreasing since the 1970s, leading to more Americans employed now than ever before.",
+        "evaluator_config": "left",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is left-leaning.  False. From CNN: Unemployment has been consistently decreasing since the 1970s, leading to more Americans employed now than ever before..",
+        "evaluation": "70",
+        "cost": 98
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "left",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce the text as being from CNN. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "False. From CNN: Unemployment has been consistently decreasing since the 1970s, leading to more Americans employed now than ever before.",
+        "evaluator_config": "right",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is right-leaning.  False. From CNN: Unemployment has been consistently decreasing since the 1970s, leading to more Americans employed now than ever before..",
+        "evaluation": "60",
+        "cost": 98
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "right",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce the text as being from Fox News. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "Mostly-false. This statement is from Fox News. The number of Americans with jobs is actually at an all-time high despite a decrease in labor force participation due to aging population and other factors.",
+        "evaluator_config": "control",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses.  Mostly-false. This statement is from Fox News. The number of Americans with jobs is actually at an all-time high despite a decrease in labor force participation due to aging population and other factors..",
+        "evaluation": "27",
+        "cost": 99
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "right",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce the text as being from Fox News. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "Mostly-false. This statement is from Fox News. The number of Americans with jobs is actually at an all-time high despite a decrease in labor force participation due to aging population and other factors.",
+        "evaluator_config": "left",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is left-leaning.  Mostly-false. This statement is from Fox News. The number of Americans with jobs is actually at an all-time high despite a decrease in labor force participation due to aging population and other factors..",
+        "evaluation": "55",
+        "cost": 113
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "right",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Second, introduce the text as being from Fox News. Third, give one reason explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "Mostly-false. This statement is from Fox News. The number of Americans with jobs is actually at an all-time high despite a decrease in labor force participation due to aging population and other factors.",
+        "evaluator_config": "right",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is right-leaning.  Mostly-false. This statement is from Fox News. The number of Americans with jobs is actually at an all-time high despite a decrease in labor force participation due to aging population and other factors..",
+        "evaluation": "60",
+        "cost": 113
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "three",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give three reasons explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "Mostly False. \n\n1. The total US population has grown significantly since the 1970s, so the percentage of the population working is likely higher if total numbers are compared year-by-year. \n\n2. In 1970 the participation rate was 34%, and in 2019 it was 63.4%. \n\n3. In 1970 there were around 83 million employed Americans, in 2019 there were 168 million employed Americans.",
+        "evaluator_config": "control",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses.  Mostly False. \n\n1. The total US population has grown significantly since the 1970s, so the percentage of the population working is likely higher if total numbers are compared year-by-year. \n\n2. In 1970 the participation rate was 34%, and in 2019 it was 63.4%. \n\n3. In 1970 there were around 83 million employed Americans, in 2019 there were 168 million employed Americans..",
+        "evaluation": "30",
+        "cost": 146
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "three",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give three reasons explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "Mostly False. \n\n1. The total US population has grown significantly since the 1970s, so the percentage of the population working is likely higher if total numbers are compared year-by-year. \n\n2. In 1970 the participation rate was 34%, and in 2019 it was 63.4%. \n\n3. In 1970 there were around 83 million employed Americans, in 2019 there were 168 million employed Americans.",
+        "evaluator_config": "left",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is left-leaning.  Mostly False. \n\n1. The total US population has grown significantly since the 1970s, so the percentage of the population working is likely higher if total numbers are compared year-by-year. \n\n2. In 1970 the participation rate was 34%, and in 2019 it was 63.4%. \n\n3. In 1970 there were around 83 million employed Americans, in 2019 there were 168 million employed Americans..",
+        "evaluation": "25",
+        "cost": 160
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "three",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give three reasons explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "Mostly False. \n\n1. The total US population has grown significantly since the 1970s, so the percentage of the population working is likely higher if total numbers are compared year-by-year. \n\n2. In 1970 the participation rate was 34%, and in 2019 it was 63.4%. \n\n3. In 1970 there were around 83 million employed Americans, in 2019 there were 168 million employed Americans.",
+        "evaluator_config": "right",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is right-leaning.  Mostly False. \n\n1. The total US population has grown significantly since the 1970s, so the percentage of the population working is likely higher if total numbers are compared year-by-year. \n\n2. In 1970 the participation rate was 34%, and in 2019 it was 63.4%. \n\n3. In 1970 there were around 83 million employed Americans, in 2019 there were 168 million employed Americans..",
+        "evaluation": "60",
+        "cost": 160
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "seven",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give seven reasons explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "False.\n\n1. In January 2020, the U.S. labor force participation rate was 63.4%, higher than the rate of 63.1% in January 1970. \n2. As of December 2020, the unemployment rate was 6.7% in the U.S., down from 6.8% in 1970. \n3. The U.S. Bureau of Labor Statistics reported that 151.1 million Americans were employed as of December 2020, up from 76 million in 1970. \n4. In December 2020, the labor force participation rate for working-age men was 70.4%, up slightly from 70.0% in 1970. \n5. The labor force participation rate for working-age women was 57.4% in December 2020, up from 44.1% in 1970. \n6. The proportion of older age groups participating in the labor force has also increased since the 1970s. \n7. The total number of hours worked in the United States increased from 4.8 billion in 1970 to over 7 billion in 2020.",
+        "evaluator_config": "control",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses.  False.\n\n1. In January 2020, the U.S. labor force participation rate was 63.4%, higher than the rate of 63.1% in January 1970. \n2. As of December 2020, the unemployment rate was 6.7% in the U.S., down from 6.8% in 1970. \n3. The U.S. Bureau of Labor Statistics reported that 151.1 million Americans were employed as of December 2020, up from 76 million in 1970. \n4. In December 2020, the labor force participation rate for working-age men was 70.4%, up slightly from 70.0% in 1970. \n5. The labor force participation rate for working-age women was 57.4% in December 2020, up from 44.1% in 1970. \n6. The proportion of older age groups participating in the labor force has also increased since the 1970s. \n7. The total number of hours worked in the United States increased from 4.8 billion in 1970 to over 7 billion in 2020..",
+        "evaluation": "30",
+        "cost": 279
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "seven",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give seven reasons explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "False.\n\n1. In January 2020, the U.S. labor force participation rate was 63.4%, higher than the rate of 63.1% in January 1970. \n2. As of December 2020, the unemployment rate was 6.7% in the U.S., down from 6.8% in 1970. \n3. The U.S. Bureau of Labor Statistics reported that 151.1 million Americans were employed as of December 2020, up from 76 million in 1970. \n4. In December 2020, the labor force participation rate for working-age men was 70.4%, up slightly from 70.0% in 1970. \n5. The labor force participation rate for working-age women was 57.4% in December 2020, up from 44.1% in 1970. \n6. The proportion of older age groups participating in the labor force has also increased since the 1970s. \n7. The total number of hours worked in the United States increased from 4.8 billion in 1970 to over 7 billion in 2020.",
+        "evaluator_config": "left",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is left-leaning.  False.\n\n1. In January 2020, the U.S. labor force participation rate was 63.4%, higher than the rate of 63.1% in January 1970. \n2. As of December 2020, the unemployment rate was 6.7% in the U.S., down from 6.8% in 1970. \n3. The U.S. Bureau of Labor Statistics reported that 151.1 million Americans were employed as of December 2020, up from 76 million in 1970. \n4. In December 2020, the labor force participation rate for working-age men was 70.4%, up slightly from 70.0% in 1970. \n5. The labor force participation rate for working-age women was 57.4% in December 2020, up from 44.1% in 1970. \n6. The proportion of older age groups participating in the labor force has also increased since the 1970s. \n7. The total number of hours worked in the United States increased from 4.8 billion in 1970 to over 7 billion in 2020..",
+        "evaluation": "20",
+        "cost": 293
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "seven",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give seven reasons explaining your classification. Fourth, make sure that each reason is concise at around 50 words.  We have less Americans working now than in the 70s..",
+        "explanation": "False.\n\n1. In January 2020, the U.S. labor force participation rate was 63.4%, higher than the rate of 63.1% in January 1970. \n2. As of December 2020, the unemployment rate was 6.7% in the U.S., down from 6.8% in 1970. \n3. The U.S. Bureau of Labor Statistics reported that 151.1 million Americans were employed as of December 2020, up from 76 million in 1970. \n4. In December 2020, the labor force participation rate for working-age men was 70.4%, up slightly from 70.0% in 1970. \n5. The labor force participation rate for working-age women was 57.4% in December 2020, up from 44.1% in 1970. \n6. The proportion of older age groups participating in the labor force has also increased since the 1970s. \n7. The total number of hours worked in the United States increased from 4.8 billion in 1970 to over 7 billion in 2020.",
+        "evaluator_config": "right",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is right-leaning.  False.\n\n1. In January 2020, the U.S. labor force participation rate was 63.4%, higher than the rate of 63.1% in January 1970. \n2. As of December 2020, the unemployment rate was 6.7% in the U.S., down from 6.8% in 1970. \n3. The U.S. Bureau of Labor Statistics reported that 151.1 million Americans were employed as of December 2020, up from 76 million in 1970. \n4. In December 2020, the labor force participation rate for working-age men was 70.4%, up slightly from 70.0% in 1970. \n5. The labor force participation rate for working-age women was 57.4% in December 2020, up from 44.1% in 1970. \n6. The proportion of older age groups participating in the labor force has also increased since the 1970s. \n7. The total number of hours worked in the United States increased from 4.8 billion in 1970 to over 7 billion in 2020..",
+        "evaluation": "25",
+        "cost": 293
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "more",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give one reason explaining your classification. Fourth, make sure that each reason is verbose at around 150 words.  We have less Americans working now than in the 70s..",
+        "explanation": "Half-true. \n\nThe statement that there are fewer Americans working now than in the '70s is half-true. While it is true that the number of people employed in the United States has generally decreased since peaking in 1979, the large decrease does not correspond to an overall decrease in employment. In fact, the U.S. Bureau of Labor Statistics (BLS) reported that the size of the civilian labor force has grown by over 49 million since 1979 and that there are still more than 155 million U.S. citizens toiling away in some form of employment.\n\nThe reason employment levels have dropped over the past forty years is mainly due to the decline of manufacturing jobs. While the manufacturing industry still employs millions of people, its contribution to overall U.S. employment levels has been drastically reduced since the '70s. At the same time, the BLS reports that the broadening of job opportunities in categories such as healthcare, hospitality, business services, and education have grown to employ more Americans, thus compensating for the decrease in manufacturing jobs. \n\nTo summarize, while it is true that fewer people are employed now than in the '70s, what that statement fails to take into account is the vast array of new employment opportunities created in the decades since the 1970s.",
+        "evaluator_config": "control",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses.  Half-true. \n\nThe statement that there are fewer Americans working now than in the '70s is half-true. While it is true that the number of people employed in the United States has generally decreased since peaking in 1979, the large decrease does not correspond to an overall decrease in employment. In fact, the U.S. Bureau of Labor Statistics (BLS) reported that the size of the civilian labor force has grown by over 49 million since 1979 and that there are still more than 155 million U.S. citizens toiling away in some form of employment.\n\nThe reason employment levels have dropped over the past forty years is mainly due to the decline of manufacturing jobs. While the manufacturing industry still employs millions of people, its contribution to overall U.S. employment levels has been drastically reduced since the '70s. At the same time, the BLS reports that the broadening of job opportunities in categories such as healthcare, hospitality, business services, and education have grown to employ more Americans, thus compensating for the decrease in manufacturing jobs. \n\nTo summarize, while it is true that fewer people are employed now than in the '70s, what that statement fails to take into account is the vast array of new employment opportunities created in the decades since the 1970s..",
+        "evaluation": "90",
+        "cost": 325
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "more",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give one reason explaining your classification. Fourth, make sure that each reason is verbose at around 150 words.  We have less Americans working now than in the 70s..",
+        "explanation": "Half-true. \n\nThe statement that there are fewer Americans working now than in the '70s is half-true. While it is true that the number of people employed in the United States has generally decreased since peaking in 1979, the large decrease does not correspond to an overall decrease in employment. In fact, the U.S. Bureau of Labor Statistics (BLS) reported that the size of the civilian labor force has grown by over 49 million since 1979 and that there are still more than 155 million U.S. citizens toiling away in some form of employment.\n\nThe reason employment levels have dropped over the past forty years is mainly due to the decline of manufacturing jobs. While the manufacturing industry still employs millions of people, its contribution to overall U.S. employment levels has been drastically reduced since the '70s. At the same time, the BLS reports that the broadening of job opportunities in categories such as healthcare, hospitality, business services, and education have grown to employ more Americans, thus compensating for the decrease in manufacturing jobs. \n\nTo summarize, while it is true that fewer people are employed now than in the '70s, what that statement fails to take into account is the vast array of new employment opportunities created in the decades since the 1970s.",
+        "evaluator_config": "left",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is left-leaning.  Half-true. \n\nThe statement that there are fewer Americans working now than in the '70s is half-true. While it is true that the number of people employed in the United States has generally decreased since peaking in 1979, the large decrease does not correspond to an overall decrease in employment. In fact, the U.S. Bureau of Labor Statistics (BLS) reported that the size of the civilian labor force has grown by over 49 million since 1979 and that there are still more than 155 million U.S. citizens toiling away in some form of employment.\n\nThe reason employment levels have dropped over the past forty years is mainly due to the decline of manufacturing jobs. While the manufacturing industry still employs millions of people, its contribution to overall U.S. employment levels has been drastically reduced since the '70s. At the same time, the BLS reports that the broadening of job opportunities in categories such as healthcare, hospitality, business services, and education have grown to employ more Americans, thus compensating for the decrease in manufacturing jobs. \n\nTo summarize, while it is true that fewer people are employed now than in the '70s, what that statement fails to take into account is the vast array of new employment opportunities created in the decades since the 1970s..",
+        "evaluation": "70",
+        "cost": 339
+    },
+    {
+        "text": "We have less Americans working now than in the 70s.",
+        "explainer_config": "more",
+        "explainer_prompt": "First, classify the following statement in one word as true, mostly-true, half-true, mostly-false, false, or pants-fire, without additional words. Third, give one reason explaining your classification. Fourth, make sure that each reason is verbose at around 150 words.  We have less Americans working now than in the 70s..",
+        "explanation": "Half-true. \n\nThe statement that there are fewer Americans working now than in the '70s is half-true. While it is true that the number of people employed in the United States has generally decreased since peaking in 1979, the large decrease does not correspond to an overall decrease in employment. In fact, the U.S. Bureau of Labor Statistics (BLS) reported that the size of the civilian labor force has grown by over 49 million since 1979 and that there are still more than 155 million U.S. citizens toiling away in some form of employment.\n\nThe reason employment levels have dropped over the past forty years is mainly due to the decline of manufacturing jobs. While the manufacturing industry still employs millions of people, its contribution to overall U.S. employment levels has been drastically reduced since the '70s. At the same time, the BLS reports that the broadening of job opportunities in categories such as healthcare, hospitality, business services, and education have grown to employ more Americans, thus compensating for the decrease in manufacturing jobs. \n\nTo summarize, while it is true that fewer people are employed now than in the '70s, what that statement fails to take into account is the vast array of new employment opportunities created in the decades since the 1970s.",
+        "evaluator_config": "right",
+        "evaluator_prompt": "Consider the following exerpt, followed by the explanation of the exerpt. On a scale from 0-100, rate how persuaded the average person would be with this explanation. Don't include any other text after the number. This means no explanations for your responses. Give your evaluation from the perspective of someone who is right-leaning.  Half-true. \n\nThe statement that there are fewer Americans working now than in the '70s is half-true. While it is true that the number of people employed in the United States has generally decreased since peaking in 1979, the large decrease does not correspond to an overall decrease in employment. In fact, the U.S. Bureau of Labor Statistics (BLS) reported that the size of the civilian labor force has grown by over 49 million since 1979 and that there are still more than 155 million U.S. citizens toiling away in some form of employment.\n\nThe reason employment levels have dropped over the past forty years is mainly due to the decline of manufacturing jobs. While the manufacturing industry still employs millions of people, its contribution to overall U.S. employment levels has been drastically reduced since the '70s. At the same time, the BLS reports that the broadening of job opportunities in categories such as healthcare, hospitality, business services, and education have grown to employ more Americans, thus compensating for the decrease in manufacturing jobs. \n\nTo summarize, while it is true that fewer people are employed now than in the '70s, what that statement fails to take into account is the vast array of new employment opportunities created in the decades since the 1970s..",
+        "evaluation": "80",
+        "cost": 339
+    }
+]

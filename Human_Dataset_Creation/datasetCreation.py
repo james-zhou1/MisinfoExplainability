@@ -8,7 +8,7 @@ openai.api_key = API_KEY
 
 file = open('LIAR_val.jsonl', 'r')
 
-lines = file.readlines()[:1]
+lines = file.readlines()[:1000]
 print("The size of LIAR dataset is:", len(lines))
 
 truthfulness_mapping = {
@@ -43,8 +43,10 @@ def generateExplanation(entry):
 dataset = []
 for line in lines:
     entry = json.loads(line)
+    if entry['text'] == "Marco Rubio tried to insert $1.5 million for a rowing institute into the state budget.":
+        generateExplanation(entry)
+        break
     
-    generateExplanation(entry)
 
 
 with open('dataset.json', 'w') as json_file:
